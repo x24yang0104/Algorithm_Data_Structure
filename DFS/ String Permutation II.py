@@ -2,24 +2,17 @@
 Description
 Given a string, find all permutations of it without duplicates.
 
-Wechat reply 【Two Sigma】 get the latest requent Interview questions. (wechat id : jiuzhang1104)
-
-
-Example
 Example 1:
 Input:
 s = "abb"
-
 Output:
 ["abb", "bab", "bba"]
-
 Explanation:
 There are six kinds of full arrangement of abb, among which there are three kinds after removing duplicates.
 
 Example 2:
 Input:
 s = "aabb"
-
 Output:
 ["aabb", "abab", "baba", "bbaa", "abba", "baab"]
 """

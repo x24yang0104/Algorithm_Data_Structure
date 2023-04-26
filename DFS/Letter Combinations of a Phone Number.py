@@ -1,9 +1,7 @@
 """
 Description
 Given a digit string excluded 0 and 1, return all possible letter combinations that the number could represent.
-
 A mapping of digit to letters (just like on the telephone buttons) is given below.
-
 '2': ['a', 'b', 'c']
 '3': ['d', 'e', 'f']
 '4': ['g', 'h', 'i']
@@ -12,7 +10,6 @@ A mapping of digit to letters (just like on the telephone buttons) is given belo
 '7': ['p', 'q', 'r', 's']
 '8': ['t', 'u', 'v']
 '9': ['w', 'x', 'y', 'z'] 
-
 Although the answer above is in lexicographical order, your answer could be in any order you want.
 
 Example 1:

@@ -1,58 +1,51 @@
 """
 Description
 Given an input string s and a pattern p, implement wildcard pattern matching with support for '?' and '*'. The matching rules are as follows：
-
 '?' Matches any single character.
 '*' Matches any sequence of characters (including the empty sequence).
 The matching should cover the entire input string (not partial).
-
-Wechat reply 【Two Sigma】 get the latest requent Interview questions. (wechat id : jiuzhang1104)
-
-
 0 <= |s|, |p| <= 1000
 It is guaranteed that s only contains lowercase English letters and p contains lowercase English letters , ? and *
 
-Example
 Example 1
-
 Input:
 "aa"
 "a"
 Output: false
-Example 2
 
+Example 2
 Input:
 "aa"
 "aa"
 Output: true
-Example 3
 
+Example 3
 Input:
 "aaa"
 "aa"
 Output: false
-Example 4
 
+Example 4
 Input:
 "aa"
 "*"
 Output: true
 Explanation: '*' can replace any string
-Example 5
 
+Example 5
 Input:
 "aa"
 "a*"
 Output: true
-Example 6
 
+Example 6
 Input:
 "ab"
 "?*"
 Output: true
 Explanation: '?' -> 'a' '*' -> 'b'
-Example 7
 
+Example 7
 Input:
 "aab"
 "c*a*b"

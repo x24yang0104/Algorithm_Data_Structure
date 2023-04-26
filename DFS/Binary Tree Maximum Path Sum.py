@@ -3,28 +3,20 @@ Given a binary tree, find the maximum path sum.
 The path may start and end at any node in the tree.
 (Path sum is the sum of the weights of nodes on the path between two nodes.)
 
-Example
 Example 1:
-
 Input:
-
 tree = {2}
 Output:
-
 2
 Explanation:
-
 There is only one node 2
+
 Example 2:
-
 Input:
-
 tree = {1,2,3}
 Output:
-
 6
 Explanation:
-
 As shown in the figure below, the longest path is 2-1-3
       1
      / \
