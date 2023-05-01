@@ -55,6 +55,6 @@ class Solution:
             self.dfs(nums, i + 1, k - 1, target - nums[i], result, results)
             result.pop()
 """
-Time Complexity: O(S), S means the sum of all leaf node's deepth in the search tree. Worse Case: n * 2pow(n)
+Time Complexity: O(S), S means the sum of all leaf node's deepth in the search tree. Worse Case: n * 2^n
 Space complexity: O(k). 
 """
